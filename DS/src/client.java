@@ -3,7 +3,7 @@ public class client {
 
 	public static void main(String[] args) {
 		try {
-			Socket soc = new Socket("localhost",9999);
+			Socket soc = new Socket("localhost",8888);
 			System.out.print("Conected!\n");
 			
 			InputStream in = soc.getInputStream();
@@ -15,7 +15,7 @@ public class client {
 			BufferedWriter buffW = new BufferedWriter(write2Client);
 			
 			Scanner banPhim = new Scanner(System.in);
-			//=====THIẾT KẾ GIAO THỨC ======
+	
 			String chuoiHello_Nhan = buffR.readLine();
 			System.out.println(" server: " + chuoiHello_Nhan);
 			
