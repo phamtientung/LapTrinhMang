@@ -36,7 +36,7 @@ public class server {
 				BufferedReader buffR = new BufferedReader(inReader);
 					
 					//Gá»­i hello
-					
+					String chuoiHello_Gui = "Hello báº¡n muá»‘n tráº£ vá»� sá»‘  máº¥y nÃ o ? ";
 					buffW.write(chuoiHello_Gui+ "\n" );
 					buffW.flush();
 					//Nháº­n vá»� sÃ´ vÃ  tráº£ lá»�i
