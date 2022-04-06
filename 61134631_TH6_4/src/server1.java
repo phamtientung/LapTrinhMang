@@ -63,7 +63,54 @@ public class server1 extends Thread {
 				 
 				 if(chuoinhan.equals("1"))
 				 {
-					 GuiFile("D: 1.txt");
+					 GuiFile(" 1.txt");
+				 }else {
+					 if(chuoinhan.equals("2"))
+					 {
+						 GuiFile(" 2.txt");
+					 }else {
+						 if(chuoinhan.equals("3"))
+						 {
+							 GuiFile(" 3.txt");
+						 }else {
+							 if(chuoinhan.equals("4"))
+							 {
+								 GuiFile(" 4.txt");
+							 }else
+							 {
+								 if(chuoinhan.equals("5"))
+								 {
+									 GuiFile(" 5.txt");
+								 }else {
+									 if(chuoinhan.equals("6"))
+									 {
+										 GuiFile(" 6.txt");
+									 }else {
+										 if(chuoinhan.equals("7"))
+										 {
+											 GuiFile(" 7.txt");
+										 }else {
+											 if(chuoinhan.equals("8"))
+											 {
+												 GuiFile(" 8.txt");
+											 }else
+											 {
+												 if(chuoinhan.equals("9"))
+												 {
+													 GuiFile(" 9.txt");
+												 }else {
+													 if(chuoinhan.equals("10"))
+													 {
+														 GuiFile(" 10.txt");
+													 }
+													 }
+												 }
+											 }
+										 }
+									 }
+							 }
+						 }
+					 }
 				 }
 				
 				
