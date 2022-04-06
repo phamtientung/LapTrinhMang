@@ -18,6 +18,8 @@ public class server1 extends Thread {
 			this.socketClient = socketClient;
 			this.id = id;
 			
+			
+			
 		}	
 		Void GuiFile(String tenFile) throws IOException{
 			// lấy về nhập từ file
@@ -27,7 +29,7 @@ public class server1 extends Thread {
 			OutputStream osToClient = socketClient.getOutputStream();
 			OutputStreamWriter writer2Client = new BufferedReader(write2Client);
 			// đọc từng dòng
-			Sing line;
+			String line;
 			while((line = buffRead.readLine()) != null)
 			{
 				// gửi về

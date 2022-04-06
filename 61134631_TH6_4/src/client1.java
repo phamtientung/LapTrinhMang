@@ -26,7 +26,7 @@ public class client1 {
 			while(true)
 			{
 				System.out.print("\nclient: ");
-				System.out.print("nhập vào số 0 đến 9(nhập 10 để kết thúc) :" );
+				System.out.print("nhập vào số 1 đến 10(nhập 0 để kết thúc) :" );
 				String chuoigui = banPhim.nextLine();
 				// gửi đi, nếu chuỗi phải là Bye
 				buffwrite.write(chuoigui+"\n");
